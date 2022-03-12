@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.d-flex{
+  display:flex;
+}
+.flex-column{
+  flex:column;
+}
+.w-100{
+  width:100%;
+}
+.mw-100{
+  max-width:100%;
+}
+.w-50{
+  width:50%;
+}
+.w-40{
+  width:40%;
+}
+.h-50{
+  height:50vh
+}
+.text-primary{
+  color:#cb7188;
+}
+.pr{
+  padding-right:10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  img{
+     max-width:100%;
+  }
+ 
+}
+@media only screen and (max-width: 100px) {
+  img{
+      max-width:100%;
+  }
+  
+}
+@media only screen and (min-width: 600px) {
+  img{
+      max-width:100px;
+  }
+  
+}
